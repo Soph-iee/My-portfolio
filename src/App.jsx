@@ -1,10 +1,9 @@
 import Hero from "./hero";
-import "./app.css";
 import Projects from "./portfolio";
 import Contact from "./contact";
 import Navigation from "./nav";
 import Footer from "./footer";
-
+import "./app.css";
 function App() {
   return (
     <>
