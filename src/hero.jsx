@@ -1,11 +1,10 @@
 import heroImage from "./images/hero-image.jpg";
 
-import "./App.css";
+import "./app.css";
 
 function Hero() {
   return (
     <>
-     
       <header className="hero-section">
         <div className="hero-content">
           <h1>

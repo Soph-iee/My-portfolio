@@ -2,13 +2,12 @@ import LinkedinLogo from "./assets/bxl-linkedin-square.svg";
 import gmailLogo from "./assets/bxl-gmail.svg";
 import twitterLogo from "./assets/bxl-twitter.svg";
 import whatsappLogo from "./assets/bxl-whatsapp.svg";
-import "./App.css";
+import "./app.css";
 
 function Footer() {
   return (
     <footer className="footer">
       <nav>
-      
         <ul>
           <li>
             <a target="blank" href="https://linkedin.com/opeyemiblessing">
