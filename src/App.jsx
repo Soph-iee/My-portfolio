@@ -1,7 +1,8 @@
+import Navigation from "./nav";
 import Hero from "./hero";
 import Projects from "./portfolio";
 import Contact from "./contact";
-import Navigation from "./nav";
+
 import Footer from "./footer";
 import "./app.css";
 function App() {
