@@ -4,7 +4,7 @@ import Projects from "./portfolio";
 import Contact from "./contact";
 
 import Footer from "./footer";
-import "./index .css";
+import "./index.css";
 function App() {
   return (
     <>
