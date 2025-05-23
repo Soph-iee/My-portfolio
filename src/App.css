@@ -17,7 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -235,7 +235,7 @@ body {
 /* mobile view */
 @media (max-width: 765px) {
   .container {
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
     display: grid;
   }
