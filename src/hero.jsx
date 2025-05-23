@@ -1,6 +1,6 @@
 import heroImage from "./images/hero-image.jpg";
 
-import "./app.css";
+import "./index.css";
 
 function Hero() {
   return (

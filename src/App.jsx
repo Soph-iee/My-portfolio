@@ -1,10 +1,10 @@
-import Navigation from "./nav";
+import Navigation from "./navbar";
 import Hero from "./hero";
 import Projects from "./portfolio";
 import Contact from "./contact";
 
 import Footer from "./footer";
-import "./app.css";
+import "./index .css";
 function App() {
   return (
     <>

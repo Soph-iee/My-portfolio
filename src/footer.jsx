@@ -2,7 +2,7 @@ import LinkedinLogo from "./assets/bxl-linkedin-square.svg";
 import gmailLogo from "./assets/bxl-gmail.svg";
 import twitterLogo from "./assets/bxl-twitter.svg";
 import whatsappLogo from "./assets/bxl-whatsapp.svg";
-import "./app.css";
+import "./index.css";
 
 function Footer() {
   return (
