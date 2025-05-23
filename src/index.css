@@ -364,7 +364,7 @@ body {
 
   .project-item a:hover {
     color: #000;
-    border-bottom: #daa520c9 solid 2px;
+    border-bottom: transparent solid 2px;
     border-radius: 0px;
     transition: 0.3s ease-in-out;
   }
