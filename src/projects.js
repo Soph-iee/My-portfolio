@@ -6,13 +6,44 @@ import musicplayer from "./images/musicplayer.png";
 import accordion from "./images/accordion.png";
 import bookmark from "./images/bookmark.png";
 import Segsalerty from "./images/segsalerty.png";
+import ExpenseTracka from "./images/xpesnetracka.png";
 
 const projects = [
+  {
+    name: "Expense Tracker",
+    image: ExpenseTracka,
+    url: "https://xpensetrackaa.netlify.app/",
+    id: 14,
+    responsive: true,
+  },
   {
     name: "Segsalerty",
     image: Segsalerty,
     url: "https://segsalertylanding.netlify.app",
     id: 11,
+    responsive: true,
+  },
+  {
+    name: "Bookmark Landing",
+    image: bookmark,
+    url: "https://bookmark-landinng.netlify.app/",
+    id: 7,
+    responsive: false,
+    mobile: true,
+  },
+
+  {
+    name: "Accordion",
+    image: accordion,
+    url: "https://accordion-fmc.netlify.app/",
+    id: 6,
+    responsive: true,
+  },
+  {
+    name: "Music Player",
+    image: musicplayer,
+    url: "https://soph-iee.github.io/Virtual-Music-Playlist/",
+    id: 5,
     responsive: true,
   },
   {
@@ -42,29 +73,6 @@ const projects = [
     url: "https://soph-iee.github.io/age-calculator-app/",
     id: 4,
     responsive: false,
-  },
-  {
-    name: "Bookmark Landing",
-    image: bookmark,
-    url: "https://bookmark-landinng.netlify.app/",
-    id: 7,
-    responsive: false,
-    mobile: true,
-  },
-
-  {
-    name: "Accordion",
-    image: accordion,
-    url: "https://accordion-fmc.netlify.app/",
-    id: 6,
-    responsive: true,
-  },
-  {
-    name: "Music Player",
-    image: musicplayer,
-    url: "https://soph-iee.github.io/Virtual-Music-Playlist/",
-    id: 5,
-    responsive: true,
   },
 ];
 
