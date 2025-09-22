@@ -235,7 +235,7 @@ body {
 /* mobile view */
 @media (max-width: 765px) {
   .container {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     display: grid;
   }

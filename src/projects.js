@@ -5,8 +5,16 @@ import agecalculator from "./images/agecalculator.png";
 import musicplayer from "./images/musicplayer.png";
 import accordion from "./images/accordion.png";
 import bookmark from "./images/bookmark.png";
+import Segsalerty from "./images/segsalerty.png";
 
 const projects = [
+  {
+    name: "Segsalerty",
+    image: Segsalerty,
+    url: "https://segsalertylanding.netlify.app",
+    id: 11,
+    responsive: true,
+  },
   {
     name: "Rating Component",
     image: rating,
