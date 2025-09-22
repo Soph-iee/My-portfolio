@@ -240,7 +240,7 @@ background: #f4f4f6;
 /* mobile view */
 @media (max-width: 765px) {
   .container {
-    max-width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
   }
