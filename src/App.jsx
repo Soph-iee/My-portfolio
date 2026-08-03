@@ -1,22 +1,27 @@
-import Navigation from "./navbar";
-import Hero from "./hero";
-import Projects from "./portfolio";
-import Contact from "./contact";
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Stack from "./components/Stack";
+import Experience from "./components/Experience";
+import Works from "./components/Works";
+import HowIWork from "./components/HowIWork";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-import Footer from "./footer";
-import "./index.css";
-function App() {
+export default function App() {
   return (
     <>
-      <Navigation />
-      <div className="container">
+      <Nav />
+      <main className="container">
         <Hero />
-        <Projects />
+        <About />
+        <Stack />
+        <Experience />
+        <Works />
+        <HowIWork />
         <Contact />
-      </div>
+      </main>
       <Footer />
     </>
   );
 }
-
-export default App;
