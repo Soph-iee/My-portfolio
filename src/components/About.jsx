@@ -1,6 +1,5 @@
 import Section from "./Section";
 import profile from "../data/profile";
-import metrics from "../data/metrics";
 
 export default function About() {
   return (
@@ -16,14 +15,6 @@ export default function About() {
 
         <div>
           <p className="about-body">{profile.about}</p>
-          <ul className="metrics">
-            {metrics.map((m) => (
-              <li key={m.label}>
-                <span className="metric-value">{m.value}</span>
-                <span className="metric-label">{m.label}</span>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </Section>

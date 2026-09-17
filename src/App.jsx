@@ -4,7 +4,6 @@ import About from "./components/About";
 import Stack from "./components/Stack";
 import Experience from "./components/Experience";
 import Works from "./components/Works";
-import HowIWork from "./components/HowIWork";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -18,7 +17,6 @@ export default function App() {
         <Stack />
         <Experience />
         <Works />
-        <HowIWork />
         <Contact />
       </main>
       <Footer />
